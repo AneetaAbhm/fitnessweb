@@ -1,6 +1,6 @@
 <?php
 //For Including Config.php
-include 'config.php';
+include 'login.php';
 //Posting Data
 if (isset($_POST['submit'])) {
     //Getting Values From Form

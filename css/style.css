@@ -136,7 +136,7 @@
     .fh5co-about-us h5,
     .fh5co-network p,
     .fh5co-about-us p {
-        color: #282828;
+        color: #fff;
         font-family: 'Lato', sans-serif;
         font-weight: 700;
     }
@@ -720,4 +720,43 @@
     
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+    
+    .sidebar {
+        background-color: transparent;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 100;
+    }
+    
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .sidebar ul li {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .sidebar ul li a:hover {
+        color: #ff8013;
+    }
+    /* Adjust main content */
+    
+    .main-content {
+        margin-left: 50px;
+        /* Adjust the value to match the width of the sidebar */
     }
